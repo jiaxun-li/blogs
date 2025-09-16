@@ -8,6 +8,6 @@ main:
   - name: Topics
     url: tags/
     weight: 20
-  - name: Uses
-    url: uses/
+  - name: Academic Homepage
+    url: https://jiaxun-li.github.io
     weight: 30
