@@ -1,14 +1,13 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+title: Back to Dawn
+summary: tbd
 date: 2023-10-23
 authors:
   - admin
 tags:
-  - Hugo Blox
-  - Markdown
+  - Games
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'back to dawn'
 ---
 
 Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
