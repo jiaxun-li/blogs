@@ -1,5 +1,5 @@
 ---
-title: 14 days trip to Europe
+title: A 14 day trip to Europe
 summary: tbd
 date: 2023-10-27
 
