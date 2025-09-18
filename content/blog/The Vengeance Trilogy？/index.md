@@ -22,8 +22,18 @@ image:
 
 ## 我要复仇
 
-{{< details "点击展开剧透" >}}
-
-66666666666666
-
-{{< /details >}}
+<style>
+  .spoiler-toggle { display:inline-block; cursor:pointer; user-select:none; }
+  .spoiler-content { 
+    filter: blur(6px); 
+    transition: filter .2s ease;
+  }
+  /* 悬停时可预览（可选） */
+  .spoiler-content:hover { filter: blur(3px); }
+  /* 勾选后显示 */
+  input[type="checkbox"].spoiler-cb { display:none; }
+  input.spoiler-cb:checked + .spoiler-toggle + .spoiler-content { filter:none; }
+</style>
+<input id="sp1" type="checkbox" class="spoiler-cb">
+<label for="sp1" class="spoiler-toggle">👁️ 点击显示/隐藏剧透</label>
+<span class="spoiler-content">这里是剧透文字，可以包含 <em>Markdown 转成的 HTML</em>。</span>
