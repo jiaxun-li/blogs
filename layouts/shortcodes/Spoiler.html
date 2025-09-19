@@ -24,11 +24,13 @@
 <p class="p3"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{{- $blur := .Get "blur" | default "6" -}}</span></p>
 <p class="p1"><span class="s1">{{- $open := .Get "open" | default "" -}}</span></p>
+<p class="p1"><span class="s1">{{- $id <span class="Apple-converted-space">  </span>:= printf "sp-%d" now.UnixNano -}}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;span class="spoiler-inline"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;input type="checkbox" class="spoiler-cb" {{ if eq (lower $open) "true" }}checked{{ end }} aria-label="Reveal spoiler"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;span class="spoiler-content" style="--spoiler-blur: {{ $blur }}px;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;input id="{{ $id }}" type="checkbox" class="spoiler-cb" {{ if eq (lower $open) "true" }}checked{{ end }}&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;label for="{{ $id }}" class="spoiler-content" style="--spoiler-blur: {{ $blur }}px;"&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{{ .Inner | markdownify }}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/label&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/span&gt;</span></p>
 </body>
 </html>
