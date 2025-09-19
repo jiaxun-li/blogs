@@ -13,47 +13,43 @@ figure figcaption {
   margin-top: 0.5em;
 }
 
-/* ========== Inline Spoiler ========== */
-.spoiler-inline {
+
+/* 行内剧透：低调、无背景 */
+.ispoiler{
   position: relative;
-  display: inline;
+  display: inline-block;     /* 保持行内布局 */
+  vertical-align: baseline;
+  text-decoration: underline dotted currentColor; /* 低调提示，可去掉 */
+  text-underline-offset: 2px;
   cursor: pointer;
 }
-
-/* 隐藏 input：占位但透明，可聚焦（键盘可切换） */
-.spoiler-inline .spoiler-cb {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  width: 100%; height: 100%;
-  cursor: pointer;
-  z-index: 2;
-  margin: 0;
+.ispoiler-cb{
+  position: absolute; inset: 0; opacity: 0; z-index: 2; cursor: pointer;
 }
-
-/* 剧透文本：初始模糊 */
-.spoiler-inline .spoiler-content {
-  filter: blur(var(--spoiler-blur, 6px));
-  opacity: .8;
-  user-select: none;
+.ispoiler-content{
+  --ispoiler-blur: 6px;      /* 调整模糊强度 */
+  filter: blur(var(--ispoiler-blur));
+  opacity: .85;
   pointer-events: none;
+  user-select: none;
   transition: filter .2s ease, opacity .2s ease;
 }
+/* 展开后可读可选 */
+.ispoiler-cb:checked + .ispoiler-content{
+  filter: none; opacity: 1; pointer-events: auto; user-select: text;
+}
+/* 展开后移除下划线（现代浏览器支持 :has） */
+.ispoiler:has(.ispoiler-cb:checked){ text-decoration: none; }
 
-/* 展开后：清晰 */
-.spoiler-inline .spoiler-cb:checked + .spoiler-content {
-  filter: none;
-  opacity: 1;
-  user-select: text;
-  pointer-events: auto;
+/* 可选：悬停半预览（想更“稳重”就删掉） */
+.ispoiler.hover:hover .ispoiler-content{
+  filter: blur(calc(var(--ispoiler-blur) - 2px));
 }
 
-/* 打印自动显示 */
-@media print {
-  .spoiler-inline .spoiler-content {
-    filter: none !important;
-    opacity: 1 !important;
-    user-select: text !important;
-    pointer-events: auto !important;
+/* 打印/导出 PDF 自动清晰 */
+@media print{
+  .ispoiler-content{
+    filter: none !important; opacity: 1 !important;
+    pointer-events: auto !important; user-select: text !important;
   }
 }
