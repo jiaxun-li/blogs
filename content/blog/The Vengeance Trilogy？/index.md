@@ -46,12 +46,11 @@ image:
   <img src="images/我要复仇吃面.jpeg" alt="《我要复仇》的Ryu在姐姐呻吟时吃面" width="400">
   <figcaption>图：《我要复仇》中Ryu听不见姐姐的呼救</figcaption>
 </figure>
-除了安静的基调，影片也会时不时给予一些精神上的刺激：<iframe frameborder="no" 
-        border="0" 
-        marginwidth="0" 
-        marginheight="0" 
-        width=330 
-        height=86 
-        src="//music.163.com/outchain/player?type=2&id=30039171&auto=0&height=66">
-</iframe>
+在安静的基调之外，影片也会时不时用诡异而扭曲的音乐给予一些精神上的刺激：
+
+<audio controls style="width:100%;">
+  <source src="/audio/sapjil.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 
