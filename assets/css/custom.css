@@ -14,42 +14,45 @@ figure figcaption {
 }
 
 
-/* 行内剧透：低调、无背景 */
-.ispoiler{
-  position: relative;
-  display: inline-block;     /* 保持行内布局 */
-  vertical-align: baseline;
-  text-decoration: underline dotted currentColor; /* 低调提示，可去掉 */
-  text-underline-offset: 2px;
-  cursor: pointer;
+/* 行内剧透：低调无背景 */
+.ispoiler {
+  display: inline;            /* 放在一段话里 */
 }
-.ispoiler-cb{
-  position: absolute; inset: 0; opacity: 0; z-index: 2; cursor: pointer;
+
+/* 视觉隐藏但可访问的 checkbox（读屏/键盘可用） */
+.ispoiler-cb {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.ispoiler-content{
-  --ispoiler-blur: 6px;      /* 调整模糊强度 */
+
+/* 直接把“模糊文本”做成 label，这样点击它就能切换 checked */
+.ispoiler-content {
+  --ispoiler-blur: 6px;
   filter: blur(var(--ispoiler-blur));
   opacity: .85;
-  pointer-events: none;
   user-select: none;
+  pointer-events: none;       /* 未展开时禁止选中/点击其内链接 */
   transition: filter .2s ease, opacity .2s ease;
-}
-/* 展开后可读可选 */
-.ispoiler-cb:checked + .ispoiler-content{
-  filter: none; opacity: 1; pointer-events: auto; user-select: text;
-}
-/* 展开后移除下划线（现代浏览器支持 :has） */
-.ispoiler:has(.ispoiler-cb:checked){ text-decoration: none; }
-
-/* 可选：悬停半预览（想更“稳重”就删掉） */
-.ispoiler.hover:hover .ispoiler-content{
-  filter: blur(calc(var(--ispoiler-blur) - 2px));
+  text-decoration: underline dotted currentColor; /* 低调提示，想更隐形可删 */
+  text-underline-offset: 2px;
 }
 
-/* 打印/导出 PDF 自动清晰 */
-@media print{
-  .ispoiler-content{
+/* 勾选后清晰显示，可交互 */
+.ispoiler-cb:checked ~ .ispoiler-content {
+  filter: none;
+  opacity: 1;
+  user-select: text;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+/* 打印时自动清晰 */
+@media print {
+  .ispoiler-content {
     filter: none !important; opacity: 1 !important;
-    pointer-events: auto !important; user-select: text !important;
+    user-select: text !important; pointer-events: auto !important;
   }
 }
