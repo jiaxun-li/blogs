@@ -13,77 +13,47 @@ figure figcaption {
   margin-top: 0.5em;
 }
 
-/* ========== Spoiler 基础 ========== */
-.spoiler {
+/* ========== Inline Spoiler ========== */
+.spoiler-inline {
   position: relative;
-  display: block;
-  margin: 1rem 0;
-  padding: .75rem 1rem;
-  border: 1px solid #e5e7eb;
-  border-left: 4px solid #f59e0b;
-  border-radius: 10px;
-  background: rgba(250,204,21,.06);
+  display: inline;
   cursor: pointer;
 }
 
-/* 透明覆盖层：让点击落在 input 上（可聚焦，可键盘切换） */
-.spoiler .spoiler-cb {
+/* 隐藏 input：占位但透明，可聚焦（键盘可切换） */
+.spoiler-inline .spoiler-cb {
   position: absolute;
   inset: 0;
   opacity: 0;
-  z-index: 2;
-  cursor: pointer;
-  /* 视觉隐藏但仍可访问： */
   width: 100%; height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
 }
 
-/* 内容：初始模糊 + 降不透明 + 禁交互 */
-.spoiler .spoiler-content {
-  --spoiler-blur: 8px;                  /* 可被行内覆盖 */
-  filter: blur(var(--spoiler-blur));
-  opacity: .85;
+/* 剧透文本：初始模糊 */
+.spoiler-inline .spoiler-content {
+  filter: blur(var(--spoiler-blur, 6px));
+  opacity: .8;
   user-select: none;
   pointer-events: none;
-  transition: filter .2s ease, opacity .2s ease, max-height .2s ease;
-  max-height: 12rem;                    /* 防止长文占位太高，展开后解除 */
-  overflow: hidden;
+  transition: filter .2s ease, opacity .2s ease;
 }
 
-/* 展开后：清晰 + 可交互 */
-.spoiler .spoiler-cb:checked + .spoiler-content {
+/* 展开后：清晰 */
+.spoiler-inline .spoiler-cb:checked + .spoiler-content {
   filter: none;
   opacity: 1;
   user-select: text;
   pointer-events: auto;
-  max-height: none;
-  overflow: visible;
 }
 
-/* 未展开时图片更明显的模糊（现代浏览器支持 :has） */
-.spoiler:not(:has(.spoiler-cb:checked)) .spoiler-content img {
-  filter: blur(calc(var(--spoiler-blur) + 2px)) saturate(.9);
-}
-
-/* 键盘可达的焦点样式（点击区域/容器获得焦点时） */
-.spoiler:focus-within {
-  outline: 2px solid #f59e0b;
-  outline-offset: 2px;
-  border-radius: 10px;
-}
-
-/* 深色模式微调（可选） */
-@media (prefers-color-scheme: dark) {
-  .spoiler { border-color: #374151; background: rgba(250,204,21,.08); }
-}
-
-/* 打印/导出 PDF 时自动展示内容 */
+/* 打印自动显示 */
 @media print {
-  .spoiler .spoiler-content {
+  .spoiler-inline .spoiler-content {
     filter: none !important;
     opacity: 1 !important;
     user-select: text !important;
     pointer-events: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
   }
 }
