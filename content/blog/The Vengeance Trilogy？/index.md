@@ -48,10 +48,8 @@ image:
 </figure>
 在安静的基调之外，影片也会时不时用诡异而扭曲的音乐给予一些精神上的刺激：
 
-<audio controls preload="metadata" style="width:100%;">
-  <source src='{{ "audio/sapjil.mp3" | relURL }}' type="audio/mpeg">
+<audio controls preload="metadata" style="width:100%">
+  <source src="audio/sapjil.mp3" type="audio/mpeg">
+  你的浏览器不支持音频播放
 </audio>
-
-
-
 
