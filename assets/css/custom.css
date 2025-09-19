@@ -12,37 +12,48 @@ figure figcaption {
   font-style: italic;
   margin-top: 0.5em;
 }
-/* ===== Inline Spoiler（行内、无背景、不换行）— label 版本 ===== */
-.spoiler-inline { display: inline; }
 
-.spoiler-inline .spoiler-cb {
-  /* 隐藏到屏幕外，但仍可聚焦/可被 label 控制 */
-  position: absolute;
-  left: -9999px;
-  width: 1px; height: 1px;
-  overflow: hidden;
-}
-
-.spoiler-inline .spoiler-content {
+/* ========== Inline Spoiler ========== */
+.spoiler-inline {
+  position: relative;
   display: inline;
   cursor: pointer;
+}
+
+/* 隐藏 input：占位但透明，可聚焦（键盘可切换） */
+.spoiler-inline .spoiler-cb {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  width: 100%; height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
+}
+
+/* 剧透文本：初始模糊 */
+.spoiler-inline .spoiler-content {
   filter: blur(var(--spoiler-blur, 6px));
-  opacity: .85;
-  user-select: none;              /* 未展开不可选中 */
+  opacity: .8;
+  user-select: none;
+  pointer-events: none;
   transition: filter .2s ease, opacity .2s ease;
 }
 
+/* 展开后：清晰 */
 .spoiler-inline .spoiler-cb:checked + .spoiler-content {
   filter: none;
   opacity: 1;
-  cursor: text;
-  user-select: text;               /* 展开后可选中复制 */
+  user-select: text;
+  pointer-events: auto;
 }
 
+/* 打印自动显示 */
 @media print {
   .spoiler-inline .spoiler-content {
     filter: none !important;
     opacity: 1 !important;
     user-select: text !important;
+    pointer-events: auto !important;
   }
 }
