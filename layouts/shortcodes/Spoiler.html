@@ -1,0 +1,38 @@
+{{/* 用法：
+{{< spoiler >}}这里是剧透{{< /spoiler >}}
+
+可选参数：
+- blur: 模糊像素（默认 8），例：blur="10"
+- once: 只展开一次不收回（radio 模式），例：once="true"
+- open: 默认就展开，例：open="true"
+- class: 额外类名，例：class="my-spoiler w-full"
+*/}}
+
+{{- $blur  := .Get "blur"  | default "8" -}}
+{{- $once  := .Get "once"  | default "" -}}
+{{- $open  := .Get "open"  | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $id    := printf "sp-%d" now.UnixNano -}}
+
+<div class="spoiler {{ $class }}">
+  {{- if eq (lower $once) "true" -}}
+    <input
+      id="{{ $id }}"
+      type="radio"
+      name="{{ $id }}"            {{/* 独立分组，单个实例只用于自身 */}}
+      class="spoiler-cb"
+      {{ if eq (lower $open) "true" }}checked{{ end }}>
+  {{- else -}}
+    <input
+      id="{{ $id }}"
+      type="checkbox"
+      class="spoiler-cb"
+      {{ if eq (lower $open) "true" }}checked{{ end }}>
+  {{- end -}}
+
+  <div id="{{ $id }}-content"
+       class="spoiler-content"
+       style="--spoiler-blur: {{ $blur }}px;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

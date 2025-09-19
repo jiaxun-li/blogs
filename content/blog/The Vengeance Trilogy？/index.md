@@ -22,7 +22,7 @@ image:
 
 <figure>
   <img src="images/我要复仇偷肾.jpg" alt="《我要复仇》的Ryu被偷肾后丢弃荒野" width="400">
-  <figcaption>图：《我要复仇》Ryu被偷肾后被丢弃</figcaption>
+  <figcaption>图：《我要复仇》中Ryu偷肾后被丢弃</figcaption>
 </figure>
 
 <figure>
@@ -32,23 +32,13 @@ image:
 
 ## 我要复仇
 
-我要复仇的开头是
+### 声音
 
-<style>
-  .spoiler-toggle { display:inline-block; cursor:pointer; user-select:none; }
-  .spoiler-content { 
-    filter: blur(6px); 
-    transition: filter .2s ease;
-  }
-  /* 悬停时可预览（可选） */
-  .spoiler-content:hover { filter: blur(3px); }
-  /* 勾选后显示 */
-  input[type="checkbox"].spoiler-cb { display:none; }
-  input.spoiler-cb:checked + .spoiler-toggle + .spoiler-content { filter:none; }
-</style>
-<input id="sp1" type="checkbox" class="spoiler-cb">
-<label for="sp1" class="spoiler-toggle">👁️ 点击显示/隐藏剧透</label>
-<span class="spoiler-content">这里是剧透文字，可以包含 <em>Markdown 转成的 HTML</em>。</span>
+整部电影给我最大的感觉是安静，安静的让人害怕，身旁夏末的蝉鸣甚至让我一度以为是电影里的声音。整部电影最血腥的几处镜头：{{<spoiler>}}Ryu的复仇，Ryu的死，Dong-jin的死{{</spoiler>}}，都没有任何音乐和对白，仿佛死亡是人们理所当然的日常一般，不值得任何感情上的波澜。这种没有声音所带来的绝望和无力感也体现在主角身上：作为聋哑人的Ryu听不见姐姐的呻吟声，在她痛苦的时候无法给予回应。而在姐姐死亡之际，他痛苦的哀嚎也无人能够听见。声音的缺失让影片的情绪——孤独、悲伤、愤怒都没有出口，只能在观众心底回荡。到最后，观众只能在一片压抑的静默中接受这场复仇与被复仇的轮回，像是被迫置身其中的一块石头，连逃避都来不及。
 
+<figure>
+  <img src="images/我要复仇吃面.jpeg" alt="《我要复仇》的Ryu在姐姐呻吟时吃面" width="400">
+  <figcaption>图：《我要复仇》中Ryu听不见姐姐的呼救</figcaption>
+</figure>
 
 
