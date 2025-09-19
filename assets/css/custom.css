@@ -13,23 +13,47 @@ figure figcaption {
   margin-top: 0.5em;
 }
 
-/* Inline spoiler（行内、无背景） */
-.spoiler-inline{ position:relative; display:inline; cursor:pointer; }
-.spoiler-inline .spoiler-cb{
-  position:absolute; inset:0; opacity:0; width:100%; height:100%;
-  cursor:pointer; z-index:2; margin:0;
+/* ===== Inline Spoiler（行内、无背景、不换行） ===== */
+.spoiler-inline{
+  position: relative;
+  display: inline-block;     /* 行内块：不强制换行，尺寸贴合内容 */
+  cursor: pointer;
 }
+
+/* 覆盖在文字上的透明复选框：点击文字即切换 */
+.spoiler-inline .spoiler-cb{
+  position: absolute;
+  inset: 0;                  /* 覆盖到同大小区域 */
+  opacity: 0;
+  width: 100%; height: 100%;
+  margin: 0; z-index: 2;
+  cursor: pointer;
+}
+
+/* 初始：模糊，禁止选中/点击（防止“偷看”与点链接） */
 .spoiler-inline .spoiler-content{
   filter: blur(var(--spoiler-blur, 6px));
-  opacity:.85; user-select:none; pointer-events:none;
+  opacity: .85;
+  user-select: none;
+  pointer-events: none;
   transition: filter .2s ease, opacity .2s ease;
 }
+
+/* 展开：清晰，恢复交互 */
 .spoiler-inline .spoiler-cb:checked + .spoiler-content{
-  filter:none; opacity:1; user-select:text; pointer-events:auto;
+  filter: none;
+  opacity: 1;
+  user-select: text;
+  pointer-events: auto;
 }
+
+/* 打印/导出 PDF：自动清晰 */
 @media print{
   .spoiler-inline .spoiler-content{
-    filter:none !important; opacity:1 !important;
-    user-select:text !important; pointer-events:auto !important;
+    filter: none !important;
+    opacity: 1 !important;
+    user-select: text !important;
+    pointer-events: auto !important;
   }
 }
+
