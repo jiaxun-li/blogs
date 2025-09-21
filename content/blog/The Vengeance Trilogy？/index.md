@@ -20,11 +20,11 @@ image:
 
 我观影的顺序是《老男孩》，《我要复仇》，最后《亲切的金子》。《老男孩》癫狂暴力，《我要复仇》沉闷压抑，《亲切的金子》华丽优雅，很难想象这三部作品是同一个人在5年内连续完成的。不同于《杀死比尔》《极速追杀》中简单的善恶观和爽快的杀戮，朴的复仇有着古希腊式的宿命悲剧以及强烈的宗教意味：《我要复仇》中Ryu被摘下器官后的裸体，鲜花和荒地，《老男孩》中主角O Dae-Su和O-i-di-pu-seu（俄狄浦斯）读音的接近，《亲切的金子》中Geum-ja的海报形象甚至直接是圣母玛利亚。即便如此，三部影片在复仇的内核动力、表现形式、执行方式，以及复仇的结果都各不相同。在朴赞郁的镜头下，复仇不再是单纯的动作叙事，而是一种现代悲剧的书写，三部调性不同的乐章最终汇成一个主题 ---- 复仇不是终点，而是人类情感在荒野上的回声。
 
-
 <figure>
   <img src="images/金子海报.jpg" alt="《亲切的金子》的海报" width="400">
-  <figcaption>图：《亲切的金子》的海报</figcaption>
+  <figcaption>《亲切的金子》的海报</figcaption>
 </figure>
+
 
 ## 我要复仇
 
@@ -37,10 +37,15 @@ image:
   <input type="checkbox" id="isp-2" class="ispoiler-cb">
 <label for="isp-2" class="ispoiler-content">而在姐姐死亡之际，他痛苦的哀嚎也无人能够听见。</label> </span>声音的缺失让影片的情绪——孤独、悲伤、愤怒都没有出口，只能在观众心底回荡。在这片压抑的静默中，我们只能被迫注视，无法发声，也无法转身。
 
-<video controls width="600">
+<figure>
+ <video controls width="600">
   <source src="video/我要复仇吃面.mp4" type="video/mp4">
   你的浏览器不支持 video 播放
 </video>
+  <figcaption>Ryu听不见姐姐的呼救</figcaption>
+</figure>
+
+
 
 在安静的基调之外，影片也会时不时用诡异而扭曲的音乐给予观众精神上的刺激：
 
@@ -50,10 +55,13 @@ image:
 </audio>
 凌乱的节拍，乱跳的琴键，金属般恼人的刮擦声，这段音乐放在任何一个电影都显得格格不入，但在《我要复仇》里，这种声音却在影片中多次出现，像是带着钢筋外表的畸形怪物骤然闯入，又立马消失。它第一次出现是在Ryu被偷取肾脏之后：Ryu拖着麻醉未醒的身体挣扎地爬起，努力睁开眼睛想弄清楚究竟发生了什么。镜头摇晃着拉远，丑陋的噪音反复拉扯，撕开了原本的沉默。焦躁和不安被强行拉到画面前，仿佛是在阻止我们逃走——“你看到我了吗？为什么是我？我该怎么办？为什么是我？” 
 
-<video controls width="600">
+<figure>
+  <video controls width="600">
   <source src="video/我要复仇偷肾.mp4" type="video/mp4">
   你的浏览器不支持 video 播放
 </video>
+  <figurecaption>Ryu被偷肾后丢弃在烂尾楼里</figurecaption>
+</figure>
 
 影片就这样在沉默和噪音的交错中展开，每一次怪异声音的闯入都是角色躁郁与痛苦的短暂爆发；可它们随即又被压了回去，重新归于死寂。到最后，我们只能在一片压抑的静默中接受这场复仇与被复仇的轮回，像是被迫置身其中的一块石头，连逃避都来之不及。
 
@@ -66,5 +74,15 @@ image:
 《我要复仇》的人物描绘十分独特。他们之间差异鲜明：Ryu的思维总是能创造意想不到的笑点，像个长不大的孩子；Dong-jin的老实和冷静让人几乎忘了他是个大企业的老板；Yeong-mi则是影片里少数带着活力的人物，她既古灵精怪，又带着激进的理想主义。然而，他们又都有着相同的气质和处境：没有谁是真正的恶人，也没有谁是无辜的，所有人都被命运裹挟在一条曲折小路上推搡着前进，走向一个早已注定的黑暗。导演没有给他们明确的善恶立场，而是在影片中不断切换视角，让观众始终无法轻易站队。
 
 影片在塑造人物时，有两种镜头给我的印象特别深刻：特写和俯瞰。如同任何一本镜头语言的教科书都会提到的，特写让我们直面人的内心世界，俯瞰则如同上帝一般冷漠窥视人的命运，这两种镜头都在《我要复仇》里被极致地运用：眼神的特写在影片安静的基调下让人物内心的波动无处遁形；而俯瞰镜头也“恰好”出现在了每一次悲剧的现场。
+
+<figure>
+  <img src="images/Dongjin特写.jpeg" alt="《亲切的金子》的海报" width="400">
+  <figcaption>Dongjin的面部特写</figcaption>
+</figure>
+
+<figure>
+  <img src="images/Dongjin俯瞰.jpeg" alt="《亲切的金子》的海报" width="400">
+  <figcaption>Dongjin跪在草坪上的俯瞰镜头</figcaption>
+</figure>
 
 群像的描绘与镜头的运用共同营造出一种格外冷峻的质感。你无法只关注某一个人，因为他们都在同一张网里彼此牵连；你也无法完全同情或谴责，因为他们每一步都带着无可避免的必然性。最终，他们汇聚成一幅压抑的群像画像，引用朋友说的一句话就是：”Like everyone loses against the world in the end. And it's not even because you're a victim of some conspiracy against you, you're just beaten by the chaos of an indifferent and menacing world“。
