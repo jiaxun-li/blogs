@@ -37,10 +37,10 @@ image:
   <input type="checkbox" id="isp-2" class="ispoiler-cb">
 <label for="isp-2" class="ispoiler-content">而在姐姐死亡之际，他痛苦的哀嚎也无人能够听见。</label> </span>声音的缺失让影片的情绪——孤独、悲伤、愤怒都没有出口，只能在观众心底回荡。在这片压抑的静默中，我们只能被迫注视，无法发声，也无法转身。
 
-<video controls width="600">
-  <source src="/video/我要复仇吃面.mp4" type="video/mp4">
-  你的浏览器不支持 video 播放
-</video>
+<figure>
+  <img src="images/我要复仇吃面.jpeg" alt="《我要复仇》的Ryu在姐姐呻吟时吃面" width="400">
+  <figcaption>图：《我要复仇》中Ryu听不见姐姐的呼救</figcaption>
+</figure>
 
 在安静的基调之外，影片也会时不时用诡异而扭曲的音乐给予观众精神上的刺激：
 
@@ -51,7 +51,7 @@ image:
 凌乱的节拍，乱跳的琴键，金属般恼人的刮擦声，这段音乐放在任何一个电影都显得格格不入，但在《我要复仇》里，这种声音却在影片中多次出现，像是带着钢筋外表的畸形怪物骤然闯入，又立马消失。它第一次出现是在Ryu被偷取肾脏之后：Ryu拖着麻醉未醒的身体挣扎地爬起，努力睁开眼睛想弄清楚究竟发生了什么。镜头摇晃着拉远，丑陋的噪音反复拉扯，撕开了原本的沉默。焦躁和不安被强行拉到画面前，仿佛是在阻止我们逃走——“你看到我了吗？为什么是我？我该怎么办？为什么是我？” 
 
 <video controls width="600">
-  <source src="/video/我要复仇偷肾.mp4" type="video/mp4">
+  <source src="/videos/我要复仇偷肾.mp4" type="video/mp4">
   你的浏览器不支持 video 播放
 </video>
 
