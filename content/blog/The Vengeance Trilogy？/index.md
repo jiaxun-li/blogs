@@ -81,7 +81,7 @@ image:
 </figure>
 
 <figure>
-  <img src="images/Dongjin俯瞰.jpeg" alt="《亲切的金子》的海报" width="400">
+  <img src="images/Dongjin俯瞰镜头.jpeg" alt="Dongjin俯瞰镜头" width="400">
   <figcaption>Dongjin跪在草坪上的俯瞰镜头</figcaption>
 </figure>
 
