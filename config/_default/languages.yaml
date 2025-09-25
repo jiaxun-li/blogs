@@ -3,15 +3,12 @@ zh:
   languageCode: zh-Hans
   weight: 1
   contentDir: content/zh
-  params:
-    locale: zh
+
 en:
   languageName: English
   languageCode: en-us
   weight: 2
   contentDir: content/en
-  params:
-    locale: en
 
 # Languages
 #   Create a section for each of your site's languages.
