@@ -21,8 +21,6 @@
 #        url: '#about'
 #        weight: 1
 
-defaultContentLanguage: zh
-defaultContentLanguageInSubdir: true
 
 languages:
   zh:
