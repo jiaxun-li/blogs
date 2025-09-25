@@ -25,12 +25,14 @@
 languages:
   zh:
     languageName: 中文
+    languageCode: zh-Hans
     weight: 1
     contentDir: content/zh
     params:
       locale: zh
   en:
     languageName: English
+    languageCode: en-us
     weight: 2
     contentDir: content/en
     params:
