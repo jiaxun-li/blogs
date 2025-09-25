@@ -91,7 +91,7 @@ image:
 
 ### 仪式
 
-老实说，《亲切的金子》在三部曲中是我觉得最为普通的一部：朴实的善恶观，略显单薄的人物，毫无曲折的复仇道路。然而，集体复仇的戏码给我留下了深刻的印象。金子邀请受害者家属们聚集到一起，观看他们孩子被受虐致死的影片。家属们从最开始的理智到愤怒，从被迫到主动参与到了这场复仇之中。
+老实说，《亲切的金子》在三部曲中是我觉得最为普通的一部：朴实的善恶观，略显单薄的人物，毫无曲折的复仇道路。然而，集体复仇的戏码给我留下了极为深刻的印象。金子邀请受害者家属们聚集到一起，观看他们孩子被受虐致死的影片。家属们从最开始的理智到愤怒，从被迫到主动参与到了这场复仇之中。
 
 ### 天使
 
@@ -99,7 +99,7 @@ image:
 
 想写《亲切的金子》的时候，正好在听王菲的《天使》，突然觉得天使这个词和电影很配。在一般的语境下，天使是美丽纯洁的象征，但在亚伯拉罕诸教中，也有堕落天使的存在：本该指引和守护灵魂的天堂使者，也可能因为诱惑人类犯罪而被逐出天堂。在这一点上，金子的形象与堕落天使如出一辙。
 
-最著名的堕落天使路西法在《失乐园》里变成了撒旦，誓要与上帝为敌，永不悔改。而金子却始终明白自己是个罪人，仍想找回曾经作为“天使”的一面。她对女儿Jenny说： "People make mistakes. If you've commited a sin, you have to make atonement for that sin. "  在她看来，复仇并不是单纯的报复，而是一种赎罪的方式。为了达成这个目的，她在监狱中隐忍了13年，利用了无数人，把自己当作了一个冷酷的工具。讽刺的是，Jenny得知妈妈的罪行后问道：“Do you want me to say sorry to his mother？"—— 在Jenny眼里，在真正的天使的眼里，没有什么罪行是一句道歉解决不了的。
+最著名的堕落天使路西法在《失乐园》里变成了撒旦，誓要与上帝为敌，永不悔改。而金子却始终明白自己是个罪人，仍想找回曾经作为“天使”的一面。她对女儿Jenny说： "People make mistakes. If you've commited a sin, you have to make atonement for that sin. "  在她看来，复仇并不是单纯的报复，而是一种赎罪。为了达成这个目的，她在监狱中隐忍了13年，利用了无数人，把自己当作了一个冷酷的工具。讽刺的是，Jenny得知妈妈的罪行后问：“Do you want me to say sorry to his mother？"—— 在Jenny眼里，在真正的天使的眼里，没有什么罪行是一句道歉解决不了的。
 
-在影片的结尾，金子把头埋入白色的蛋糕里哭泣。在一片大雪之中，穿着白色睡衣的Jenny紧紧搂着妈妈，整个世界中只有金子一身黑色的。她对女儿说，“Be white and live white, like this.” 她希望女儿能延续她未竟的“天使”身份。但她自己是否真正得到了救赎？答案似乎是否定的。旁白冷静地评价道：“Lee Geum-ja made a great mistake in her youth, and used other people to achieve her goals. But she still couldn't find the redemption she so desired.“ 即便大口吃下象征洁白的蛋糕，她内心的空虚依然无法填补。然而，旁白也说到 “In spite of this, actually, because of this, I liked Geum-ja.” 尽管得不到救赎，金子的泪水中仍有光亮，她不是像路西法那样永远与神为敌的象征。她只是一个在人世间拼命挣扎、渴望救赎却无法回头的凡人。正因如此，我喜欢金子。
+在影片的结尾，金子把头埋入白色的蛋糕里哭泣。在一片大雪之中，穿着白色睡衣的Jenny紧紧搂着妈妈，整个世界中只有金子是一身黑色的。她对女儿说，“Be white and live white, like this.” 她希望女儿能延续她未竟的“天使”身份。但她自己是否真正得到了救赎？答案似乎是否定的。旁白冷静地评价道：“Lee Geum-ja made a great mistake in her youth, and used other people to achieve her goals. But she still couldn't find the redemption she so desired.“ 即便大口吃下象征洁白的蛋糕，她内心的空虚依然无法填补。然而，旁白也说到 “In spite of this, actually, because of this, I liked Geum-ja.” 尽管得不到救赎，金子的泪水中仍有光亮，她不是像路西法那样永远与神为敌的象征。她只是一个在人世间拼命挣扎、渴望救赎却无法回头的凡人。正因如此，我喜欢金子。
 
