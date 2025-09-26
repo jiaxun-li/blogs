@@ -1,7 +1,7 @@
 ---
 title: The vengeance trilogy by Park Chan-wook
 summary: tbd
-date: 2025-09-25
+date: 2025-10-25
 authors:
   - admin
 tags:

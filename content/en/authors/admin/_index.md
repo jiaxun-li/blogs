@@ -18,17 +18,6 @@ bio: "（一句话简介，可留空）"
 design:
   view: card
 
-# 社交链接字段用 link（不是 url）
-profiles:
-  - icon: github
-    link: "https://github.com/jiaxun-li"
-  - icon: linkedin
-    link: "https://www.linkedin.com/"
-  - icon: instagram
-    link: "https://www.instagram.com/"
-  - icon: x
-    link: "https://twitter.com/"
-
 # 可选：状态表情
 status:
   icon: "👀"

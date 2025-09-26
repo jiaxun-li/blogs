@@ -1,7 +1,7 @@
 ---
 title: A 14 day trip to Europe
 summary: tbd
-date: 2023-10-27
+date: 2026-10-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
