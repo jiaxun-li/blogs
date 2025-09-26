@@ -6,7 +6,7 @@ main:
     pageRef: /blogs
     weight: 10
   - name: Topics
-    pageRef: /tags
+    pageRef: /blogs/en/tags
     weight: 20
   - name: Academic 
     url: https://jiaxun-li.github.io
