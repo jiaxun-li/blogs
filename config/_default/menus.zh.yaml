@@ -3,10 +3,10 @@
 
 main:
   - name: 文章
-    pageRef: /blogs
+    pageRef: /blog
     weight: 10
   - name: 主题
-    pageRef: /blogs/zh/tags
+    pageRef: /tags
     weight: 20
   - name: 学术
     url: https://jiaxun-li.github.io
