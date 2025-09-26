@@ -1,49 +1,37 @@
 ---
-# Display name
-title: 李佳讯
+title: "李佳讯"
+name_pronunciation: "Lee Jya-shoon"
+first_name: "Jiaxun"
+last_name: "Li"
+pronouns: "he/him"
 
-# Name pronunciation (optional)
-name_pronunciation: Lee Jya-shoon
-
-# Full name (for SEO)
-first_name: Jiaxun
-last_name: Li
-
-# Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
-status:
-  icon: 👀
-
-# Is this the primary user of the site?
 superuser: true
+draft: false
 
-# Role/position/tagline
-role: 
-
-# Organizations/Affiliations to show in About widget
+role: "Statistics PhD @ UMich"
 organizations:
-  - name: 
+  - name: "University of Michigan"
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+bio: "（一句话简介，可留空）"
 
-# Social Networking
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# 作者页/作者列表在 Tailwind 下用 card 视图最稳
+design:
+  view: card
+
+# 社交链接字段用 link（不是 url）
 profiles:
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+  - icon: github
+    link: "https://github.com/jiaxun-li"
+  - icon: linkedin
+    link: "https://www.linkedin.com/"
+  - icon: instagram
+    link: "https://www.instagram.com/"
+  - icon: x
+    link: "https://twitter.com/"
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Author's website URL
-website: ""
+# 可选：状态表情
+status:
+  icon: "👀"
 ---
 
 Welcome! This site collects my thoughts, notes, and the things I love.
