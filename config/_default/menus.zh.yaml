@@ -1,0 +1,13 @@
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: 文章
+    pageRef: /blogs
+    weight: 10
+  - name: 主题
+    pageRef: /tags
+    weight: 20
+  - name: 学术
+    url: https://jiaxun-li.github.io
+    weight: 30
