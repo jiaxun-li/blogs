@@ -2,7 +2,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 文章
+  - name: 主页
     pageRef: /
     weight: 10
   # - name: 主题
