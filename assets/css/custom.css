@@ -1,3 +1,19 @@
+/* Center the desktop menu while keeping utility controls on the right. */
+@media (min-width: 1024px) {
+  #site-header .navbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+
+  #site-header #nav-menu {
+    justify-self: center;
+  }
+
+  #site-header .navbar > div:last-child {
+    justify-self: end;
+  }
+}
+
 figure {
   text-align: center;
 }

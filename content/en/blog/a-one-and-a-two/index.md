@@ -1,21 +1,30 @@
 ---
-title: 一一
-summary: 看完电影，其实还是看不到自己的后脑勺，但至少看到了一些别人的，好像知道的事情变多了一点，不知道的也变多了一点。电影名叫《一一》，或许是这个意思。
+title: Yi Yi
+summary: >-
+  After watching the film, I still couldn’t see the back of my own head. But at least I’d seen the backs of a few other people’s. I seemed to know a little more, and to have a little more I didn’t understand. Perhaps that’s what the title, Yi Yi—“one, one”—means.
 date: 2025-09-25
 authors:
   - admin
 tags:
   - Movies
 image:
-  caption: '一一'
+  caption: 'Yi Yi'
 ---
 
-看完《一一》已是晚上10点多，陪朋友去了公交车站后又回到West Hall改了一会卷子。回想今天下午Office Hour的时候因为分数跟学生吵了一架，很气明明不是自己的问题，但却没吵过他，开始反思自己怎么那么软弱。又回想起之前社团也有类似的问题，好像当时也反思过类似的软弱。生活是一个圈，很多事情貌似变了，其实只是换了种方式重演，这也是我看完《一一》的感受。
+It was past ten by the time I finished watching *Yi Yi*. After walking my friend to the bus stop, I went back to West Hall to grade papers for a while. I kept thinking about an argument I’d had with a student over a grade during office hours that afternoon. I was angry: I hadn’t done anything wrong, yet I couldn’t hold my own. I started wondering why I was so easily pushed around. Then I remembered something similar happening in a student club, and how I’d asked myself the same question back then. Life goes in circles. So many things seem to change, only to repeat themselves in a different form. That was also how I felt after watching *Yi Yi*.
 
-一直害怕3个小时的电影会很长，看的时候却希望能再长一点。三个小时不足以概括人的一生，却足以拍一个家庭的一年。从婚礼开始到葬礼结束，南峻的家庭在一年中发生了太多故事：公司的大项目，东京，阿弟结婚，生孩子，婷婷初恋，婆婆离世。尽管影片以极其冷静的镜头和叙事去讲述这一切，却仍掩盖不下人物心中的波澜壮阔。南峻一家从大到小都有一个共同的特点，和朋友讨论后觉得“看似平静，其实都挺颠的”：NJ尽管被冠以老实人的形象，但做事不从利益角度出发，会与其他公司高管唱反调；成绩好的乖乖女婷婷，把婆婆的昏迷怪到自己身上，为此失眠了很久；洋洋不喜欢说话，但脑子总有一些奇怪的想法。《一一》的人物刻画极其细腻，十几位主要人物个个饱满生动，哪怕某个看似寻常的人，几次出场后突然成了谋杀犯，也不会让我觉得突兀。
+I’d worried that a three-hour film would feel too long. While watching it, I found myself wishing it would last a little longer. Three hours aren’t enough to capture an entire life, but they are enough to tell the story of a year in one family. Beginning with a wedding and ending with a funeral, the film follows everything that happens to NJ’s family over that year: a major project at work, Tokyo, A-Di’s marriage and the birth of his child, Ting-Ting’s first love, and Grandma’s death. The camera and the storytelling remain remarkably calm, but that calm can’t conceal the upheaval within the characters.
 
-很喜欢胖子说的：“电影发明之后，人类的生命至少延长了三倍。”有时候总觉得自己有一些乱七八糟的想法，说出来会显得幼稚，实际上也不知道是想法还是多余的所谓“青少年的躁动”，只好藏在心里。看完《一一》之后感觉好像大家都一样，南峻啊阿弟啊莉莉啊，都是如此平静却又心事重重的样子，有时也会做出一些荒唐的行为。前些天看完了朴赞郁的复仇三部曲，如果说《我要复仇》是把人的愤怒压抑到极致后爆发，扯碎了给你看人到底是什么样子，那《一一》就是藏在平静面具下的一颗跳动心脏：你看，尽管都是些家长里短的琐事，人也是这个样子。
+From the adults to the children, everyone in NJ’s family shares something. After talking it over with my friend, we settled on a description: “They look calm, but they’re all a little unhinged.” NJ is supposed to be the dependable, honest one, yet he refuses to put profit first and often disagrees with the other executives. Ting-Ting, the well-behaved daughter with good grades, blames herself for Grandma’s coma and loses sleep over it for a long time. Yang-Yang says little, but his head is full of strange ideas. The characterization in *Yi Yi* is extraordinarily delicate. Its dozen or so major characters all feel fully alive. Even when someone who initially seems perfectly ordinary turns out to be a murderer after only a few appearances, it doesn’t feel abrupt.
 
-要我说电影里最喜欢谁，我会毫不犹豫地说是洋洋，甚至好像导演也没能控制得住对他的喜爱：电影的结尾是他，海报也是他（PS：好像许多人觉得洋洋就是杨杨）。他的眼神中不只是天真和好奇，似乎还有一股坚定，这是在影片中饱经风霜的大人的柔软眼神中看不到的坚定。尽管被女孩子欺负，被老师欺负，他还是会那么固执地举起相机，去照别人的后脑勺，让别人看到自己不知道的一面。他说，“婆婆，我不知道的事情太多了。所以，你知道我以后想做什么吗，我要去告诉别人他们不知道的事情，给别人看他们看不到的东西。我想，这样一定天天都很好玩。” 一个什么都知道，什么都经历过的婆婆在婚礼上选择沉默，一言不发；一个什么都不知道，什么都没经历过的孩子在葬礼上说了很多，想要知道很多。生命是个轮回，如果可以的话，我希望我一直是洋洋。
+I love what Fatty says: “Since the invention of movies, human life has become at least three times as long.” Sometimes I feel as though my head is full of all sorts of muddled thoughts that would sound childish if I said them aloud. I’m not even sure whether they count as thoughts, or whether they’re just some unnecessary thing people call “teenage restlessness.” So I keep them to myself. After watching *Yi Yi*, I felt that perhaps everyone is like this. NJ, A-Di, Lili—all so calm on the surface, all carrying so much inside, sometimes doing things that seem absurd.
 
-写完这段话已是凌晨两点，明天又要有Office Hour——希望能比今天平静一些。看完电影，其实还是看不到自己的后脑勺，但至少看到了一些别人的，好像知道的事情变多了一点，不知道的也变多了一点。电影名叫《一一》，或许是这个意思。
+A few days earlier, I’d finished Park Chan-wook’s Vengeance Trilogy. If *Sympathy for Mr. Vengeance* pushes human anger to its breaking point, then tears everything open to show us what people really are, *Yi Yi* is a beating heart beneath a calm face. Look: even amid the small, everyday concerns of family life, this is what people are like.
+
+If you asked me which character I liked most, I’d say Yang-Yang without hesitation. It almost seems as though the director couldn’t help loving him either: the film ends with him, and he’s on the poster too. (P.S. Quite a few people seem to see Yang-Yang as a stand-in for Edward Yang himself.) There’s more than innocence and curiosity in his eyes. There’s a kind of resolve, something I don’t see in the softer eyes of the adults who have been worn down by life. Even when the girls pick on him, even when his teacher does, he still stubbornly raises his camera to photograph the backs of people’s heads, showing them a side of themselves they cannot see.
+
+He says, “Grandma, there’s so much I don’t know. So, do you know what I want to do when I grow up? I want to tell people things they don’t know and show them things they can’t see. I think that would make every day fun.”
+
+At the wedding, a grandmother who knows everything and has been through everything chooses silence. At the funeral, a child who knows nothing and has been through nothing has so much to say, and so much he wants to know. Life comes around again. If I could, I’d like to always be Yang-Yang.
+
+It’s two in the morning as I finish writing this. I have office hours again tomorrow. I hope they’ll be a little calmer than today. After watching the film, I still couldn’t see the back of my own head. But at least I’d seen the backs of a few other people’s. I seemed to know a little more, and to have a little more I didn’t understand. Perhaps that’s what the title, *Yi Yi*, means.
